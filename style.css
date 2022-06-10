@@ -1,0 +1,167 @@
+p {
+    color: rgb(82, 82, 82);
+    font-family: "Courier New";
+    font-weight: bold;
+}
+
+body {
+    background-color: #161616;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	
+	
+	background-image: url(imgs/mediabg.png);
+	background-size: 0.4%;
+	background-repeat: repeat;
+	background-attachment: fixed;
+	
+
+    margin: 0% auto;
+
+    zoom: 100%;
+    scroll-behavior: smooth;
+    
+    overflow-y: auto;
+
+    text-decoration: none;
+    
+}
+
+#hecktimg {
+    margin: 0% auto;
+    position: relative;
+    height: 100%;
+    left: 1%;
+
+    cursor: pointer;
+	transition: 0.2s;
+}
+
+#hecktimg:hover {
+    filter: drop-shadow(0 0 0.18rem rgb(255, 255, 255));
+}
+
+.button {
+    float: right;
+    margin: 0% auto;
+    position: relative;
+    height: 100%;
+    right: 1%;
+
+    cursor: pointer;
+	transition: 0.2s;
+
+}
+
+.button:hover {
+    float: right;
+    margin: 0% auto;
+    position: relative;
+    height: 100%;
+    right: 1%;
+    
+    filter: drop-shadow(0 0 0.18rem rgb(255, 255, 255));
+}
+
+.top {
+    position: fixed;
+    height: 69px;
+    width: 100%;
+    background-color: rgb(36, 36, 36);
+
+    z-index: 9999;
+}
+
+#mid {
+    position: relative;
+    top: 69px;
+    height: 4150px;
+    width: 777px;
+    background-color: #161616;
+    color:rgb(255, 255, 255);
+    margin: 0 auto;
+    padding: 1%;
+
+    
+}
+
+#mid2 {
+    position: relative;
+    top: 69px;
+    height: 1000px;
+    width: 777px;
+    background-color: #161616;
+    color:rgb(255, 255, 255);
+    margin: 0 auto;
+    padding: 1%;
+    text-align: center;
+}
+
+#cont {
+    text-align: center;
+}
+
+.bottom {
+   position: relative;
+   height: 159px;
+   width: 100%;
+   background-color: rgb(36, 36, 36);
+   color: aliceblue;
+   text-align: center;
+}
+
+p.bottext {
+    color: rgb(82, 82, 82);
+}
+
+.button2 {
+    position: relative;
+    width: 40px;
+    cursor: pointer;
+	transition: 0.4s;
+}
+
+.button2:hover {
+    filter: invert(100%);
+}
+
+a {
+    text-decoration: none;
+}
+
+.imgsc {
+    width: 500px; 
+	transition: 0.5s;
+}
+
+.imgsc:hover {
+    width: 690px;
+    filter: drop-shadow(0 0 0.4rem rgb(255, 255, 255));
+}
+
+
+.blog {
+    width: 677px; 
+	transition: 0.5s;
+    cursor: pointer;
+	transition: 0.5s;
+    position: relative;
+    top: 50px;
+}
+
+.blog:hover {
+    width: 766px;
+    filter: drop-shadow(0 0 0.4rem rgb(163, 163, 163));
+}
+
+.date {
+    float: right ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(104, 104, 104);
+    font-size: 10pt;
+    position: relative;
+    top: 16px;
+    left: -10px;
+}
+
