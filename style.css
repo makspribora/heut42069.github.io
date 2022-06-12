@@ -131,7 +131,7 @@ p.bottext {
     position: relative;
     width: 40px;
     cursor: pointer;
-	transition: 0.3s;
+    transition: 0.3s;
     filter: invert(27%);
 }
 
