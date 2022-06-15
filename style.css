@@ -28,11 +28,14 @@ body {
     
 }
 
+
+
 #hecktimg {
-    margin: 0% auto;
+    margin: 0 auto;
     position: relative;
     height: 100%;
     left: 1%;
+    float: left;
 
     cursor: pointer;
 	transition: 0.2s;
@@ -76,7 +79,7 @@ body {
 #mid {
     position: relative;
     top: 69px;
-    height: 4900px;
+    height: 4955px;
     width: 777px;
     background-color: #161616;
     color:rgb(255, 255, 255);
@@ -98,10 +101,10 @@ body {
     text-align: center;
 }
 
-#mid3 {
+#mid3blog {
     position: relative;
     top: 69px;
-    height: 1000px;
+    height: 6000px;
     width: 777px;
     background-color: #161616;
     color:rgb(255, 255, 255);
@@ -131,7 +134,7 @@ p.bottext {
     position: relative;
     width: 40px;
     cursor: pointer;
-    transition: 0.3s;
+	transition: 0.3s;
     filter: invert(27%);
 }
 
@@ -194,13 +197,21 @@ p.blog1 {
     color: rgb(151, 151, 151);
     font-size: 12.pt;
     position: relative;
-    top: 16px;
-    left: 10px;
+    
 }
 
 p.maintext {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: rgb(151, 151, 151);
+    color: rgb(201, 201, 201);
     font-size: 12.pt;
+}
+
+h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+.blogimg {
+    width: 555px; 
 }
 
