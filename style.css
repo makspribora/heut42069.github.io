@@ -1,8 +1,10 @@
 p {
     color: rgb(82, 82, 82);
-    font-family: "Courier New";
-    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    
 }
+
+
 
 body {
     background-color: #161616;
@@ -31,10 +33,9 @@ body {
 
 
 #hecktimg {
-    margin: 0 auto;
     position: relative;
     height: 100%;
-    left: 1%;
+    left: 0%;
     float: left;
 
     cursor: pointer;
@@ -47,10 +48,9 @@ body {
 
 .button {
     float: right;
-    margin: 0% auto;
     position: relative;
     height: 100%;
-    right: 1%;
+    right: 0%;
 
     cursor: pointer;
 	transition: 0.2s;
@@ -58,12 +58,6 @@ body {
 }
 
 .button:hover {
-    float: right;
-    margin: 0% auto;
-    position: relative;
-    height: 100%;
-    right: 1%;
-    
     filter: drop-shadow(0 0 0.18rem rgb(255, 255, 255));
 }
 
@@ -76,10 +70,22 @@ body {
     z-index: 9999;
 }
 
+.top2 {
+    position: relative;
+    height: 69px;
+    width: 777px;
+    background-color: rgba(36, 36, 36, 0);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 9999;
+    
+}
+
 #mid {
     position: relative;
     top: 69px;
-    height: 4955px;
+    height: 5222px;
     width: 777px;
     background-color: #161616;
     color:rgb(255, 255, 255);
@@ -104,7 +110,7 @@ body {
 #mid3blog {
     position: relative;
     top: 69px;
-    height: 6000px;
+    height: 6333px;
     width: 777px;
     background-color: #161616;
     color:rgb(255, 255, 255);
@@ -126,13 +132,23 @@ body {
    text-align: center;
 }
 
+.bottom2 {
+    position: relative;
+    height: 250px;
+    width: 777px;
+    background-color: rgba(0, 0, 0, 0);
+    margin: 0 auto;
+ }  
+
 p.bottext {
     color: rgb(82, 82, 82);
+    float: left;
 }
 
 .button2 {
     position: relative;
     width: 40px;
+    float: right;
     cursor: pointer;
 	transition: 0.3s;
     filter: invert(27%);
@@ -173,7 +189,7 @@ a {
 
 .date {
     float: right ;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Poppins', sans-serif;
     color: rgb(104, 104, 104);
     font-size: 10pt;
     position: relative;
@@ -183,7 +199,7 @@ a {
 
 .date1 {
     float: left ;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Poppins', sans-serif;
     color: rgb(104, 104, 104);
     font-size: 10pt;
     position: relative;
@@ -193,7 +209,7 @@ a {
 
 p.blog1 {
     
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Poppins', sans-serif;
     color: rgb(151, 151, 151);
     font-size: 12.pt;
     position: relative;
@@ -201,13 +217,13 @@ p.blog1 {
 }
 
 p.maintext {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Poppins', sans-serif;
     color: rgb(201, 201, 201);
     font-size: 12.pt;
 }
 
 h1 {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Poppins',sans-serif;
     color: rgb(255, 255, 255);
 }
 
