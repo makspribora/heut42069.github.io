@@ -76,8 +76,7 @@ body {
     width: 777px;
     background-color: rgba(36, 36, 36, 0);
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
     z-index: 9999;
     
 }
@@ -144,7 +143,7 @@ body {
     width: 777px;
     background-color: rgba(0, 0, 0, 0);
     margin: 0 auto;
- }  
+}  
 
 p.bottext {
     color: rgb(82, 82, 82);
@@ -235,5 +234,99 @@ h1 {
 
 .blogimg {
     width: 555px; 
+}
+
+@media screen and (max-width: 777px ) {
+
+    .blogimg {
+        width: 100%; 
+    }
+    
+    
+    .imgsc {
+        float: left;
+        width: 100%; 
+        transition: 0.5s;
+    }
+    
+    .imgsc:hover {
+        width: 100%;
+        filter: drop-shadow(0 0 0.4rem rgb(255, 255, 255));
+    }
+    #cont {
+        float: left;
+        width: 90%; 
+        margin: 0 auto;
+    }
+    
+
+    .blog {
+        width: 95%; 
+        transition: 0.5s;
+        cursor: pointer;
+        transition: 0.5s;
+        position: relative;
+        top: 50px;
+    }
+
+    #mid {
+        position: relative;
+        top: 69px;
+        height: 5333px;
+        width: 100%;
+        background-color: #161616;
+        color:rgb(255, 255, 255);
+        margin: 0 auto;
+        
+    
+        filter: drop-shadow(0 0 0.1rem rgba(0, 0, 0, 0.801));
+    }
+    
+    #mid2 {
+        position: relative;
+        top: 69px;
+        height: 1000px;
+        width: 100%;
+        background-color: #161616;
+        color:rgb(255, 255, 255);
+        margin: 0 auto;
+        
+        text-align: center;
+    
+        filter: drop-shadow(0 0 0.1rem rgba(0, 0, 0, 0.801));
+    }
+    
+    #mid3blog {
+        position: relative;
+        top: 69px;
+        height: 8000px;
+        width: 100%;
+        background-color: #161616;
+        color:rgb(255, 255, 255);
+        margin: 0 auto;
+        
+    
+        filter: drop-shadow(0 0 0.1rem rgba(0, 0, 0, 0.801));
+        
+    }
+
+    .top2 {
+        position: relative;
+        height: 69px;
+        width: 100%;
+        background-color: rgba(36, 36, 36, 0);
+        display: block;
+        margin: 0 auto;
+        z-index: 9999;
+        
+    }
+
+    .bottom2 {
+        position: relative;
+        height: 250px;
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0);
+        margin: 0 auto;
+    }  
 }
 
