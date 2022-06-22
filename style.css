@@ -152,7 +152,8 @@ p.bottext {
 
 .button2 {
     position: relative;
-    width: 40px;
+    width: 30px;
+    width: 30px;
     float: right;
     cursor: pointer;
 	transition: 0.3s;
