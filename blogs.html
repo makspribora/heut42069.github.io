@@ -19,10 +19,10 @@
     <title> Blog list </title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,800;1,200;1,300;1,400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,400;1,600&display=swap" rel="stylesheet">
   <link href="style.css" rel="stylesheet" type="text/css"/>
  </head>
  <body>
@@ -35,14 +35,20 @@
 </div>
 
 <div id="mid2">
-    <a href="blog1.html" title="blog1"> <img src="imgs/thefirstblogicon.png" class="blog"> </a>
-    <a href="blog2.html" title="blog2"> <img src="imgs/comingsoon.png" class="blog"> </a> <! --  кста получается блог октября будет 15 числа а значит прям в мою днюху XDDXXD   -->
-  
+  <a href="blog2.html" title="blog2"> <img src="imgs/secblog.png" class="blog"> </a>
+  <a href="blog1.html" title="blog1"> <img src="imgs/thefirstblogicon.png" class="blog"> </a>
+  <a href="blog3.html" title="blog3"> <img src="imgs/comingsoon.png" class="blog"> </a> <!--кста получается блог октября будет 15 числа а значит прям в мою днюху XDDXXD-->
 </div>
-<! -- footer*  -->
+<!--footer*-->
 <div class="bottom">
   <div class="bottom2">
-  </br></br></br></br></br></br><p class="bottext">©  Heckt 2022</p> 
+  </br></br></br></br></br></br><p class="bottext">©  Heckt 2022
+    <select name="select" id="lang"> 
+      <option value="/" selected>ENG</option>
+      <option value="/ru/" >RUS</option>
+    </select>
+
+  </p> 
   <a href="https://vk.com/heut42069" title="my VK (analog of the twitter or facebook)" target="_blank"><img src="imgs/vk.png" class="button2"> </a>
   <a href="https://www.youtube.com/channel/UCt5FiVUoCsoMTIRHyP8Fx8A" title="my youtube" target="_blank"><img src="imgs/youtube.png" class="button2"> </a>
   <a href="https://www.moddb.com/members/heutick" title="my moddb" target="_blank"><img src="imgs/moddb.png" class="button2"> </a>
@@ -56,4 +62,9 @@
 
 
  </body>
+ <script>
+  var lang = document.getElementById('lang');
+ lang.onchange = function(){ 
+ window.location = 'https://heut42069.github.io' + lang.options[lang.options.selectedIndex].value + 'blogs.html'}
+</script>
 </html>

@@ -1,9 +1,155 @@
 p {
     color: rgb(82, 82, 82);
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     
 }
 
+.more {
+   position: relative;
+   margin-top: 29px;
+}
+
+.bigpic {
+    position: relative;
+    float: left;
+    height: 100%;
+    padding: 15px;
+    border-radius: 15%;
+    filter: drop-shadow(0 0 0.15rem rgb(0, 0, 0));
+}
+
+h1.maksim {
+    position: relative;
+    float: left;
+    margin: 0;
+    top: 14%;
+}
+
+.maintext2 {
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
+    top: 17%;
+    margin: 5px;
+    
+}
+
+.toptext {
+    position: relative;
+    height: 256px;
+    width: 100%;
+   
+}
+
+.button3 {
+    position: relative;
+    width: 30px;
+    width: 30px;
+    float: left;
+    cursor: pointer;
+	transition: 0.3s;
+    filter: invert(100%);
+}
+
+.topbuttons {
+    position: relative;
+    top: 17%;
+}
+
+.button3:hover {
+    filter: invert(69%);
+}
+
+.downtitle {
+    text-align: center;
+    margin: 0% auto;
+    position: relative;
+    margin-bottom: 15px;
+
+}
+
+.skills {
+    position: relative;
+    width: 100%;
+    height: 269px;
+    
+}
+
+table {
+    background-color: #1c1a1e;
+    border: 1px solid hsla(0,0%,42%,.2);
+    padding: 15px;
+    border-radius: 15px;
+    margin: 0px;
+    position: relative;
+    width: 100%;
+    filter: drop-shadow(0 0 0.06rem rgb(0, 0, 0));
+}
+
+h3 {
+    position: relative;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+}
+
+.skillh3 {
+    position: relative;
+    margin-top: 30px;
+    width: 170px;
+    float: left;
+}
+
+p.skillp {
+    margin-top: 30px;
+    position: relative;
+    font-family: 'Montserrat', sans-serif;
+    float: left;
+    margin-left: 15px;
+}
+
+.projectcard {
+    position: relative;
+    width: 100%;
+    height: 130px;
+    background-color: #1c1a1e;
+    border: 1px solid hsla(0,0%,42%,.2);
+    border-radius: 15px;
+    margin-top: 20px;
+    filter: drop-shadow(0 0 0.06rem rgb(0, 0, 0));
+}
+
+section {
+    position: relative;
+    margin-top: 20%;
+
+}
+
+section.topchicksec {
+    position: relative;
+    margin-top: 0px;
+}
+
+
+.prjc {
+    position: relative;
+    float: left;
+    margin: 15px;
+}
+
+.prjc-image-ame {
+    position: relative;
+    float: right;
+    filter: drop-shadow(0 0 0.18rem rgb(154, 74, 136));
+    height: 100%;
+    
+}
+
+.prjc-image {
+    position: relative;
+    float: right;
+    height: 100%;
+    
+}
 
 
 body {
@@ -84,7 +230,7 @@ body {
 #mid {
     position: relative;
     top: 69px;
-    height: 5222px;
+    height: 2150px;
     width: 777px;
     background-color: #161616;
     color:rgb(255, 255, 255);
@@ -97,7 +243,7 @@ body {
 #mid2 {
     position: relative;
     top: 69px;
-    height: 1000px;
+    height: 1333px;
     width: 777px;
     background-color: #161616;
     color:rgb(255, 255, 255);
@@ -122,6 +268,20 @@ body {
     
 }
 
+#mid3blog2 {
+    position: relative;
+    top: 69px;
+    height: 8000px;
+    width: 777px;
+    background-color: #161616;
+    color:rgb(255, 255, 255);
+    margin: 0 auto;
+    padding: 1%;
+
+    filter: drop-shadow(0 0 0.1rem rgba(0, 0, 0, 0.801));
+    
+}
+
 #cont {
     text-align: center;
 }
@@ -135,6 +295,7 @@ body {
    text-align: center;
    filter: drop-shadow(0 0 0.3rem rgb(0, 0, 0));
     z-index: 9999;
+
 }
 
 .bottom2 {
@@ -148,6 +309,8 @@ body {
 p.bottext {
     color: rgb(82, 82, 82);
     float: left;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0px;
 }
 
 .button2 {
@@ -166,6 +329,43 @@ p.bottext {
 
 a {
     text-decoration: none;
+    color:rgb(214, 98, 98);
+    transition: 0.1s;
+}
+
+svg {
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    overflow: visible;
+    vertical-align: -0.125em;
+}
+
+.view-more {
+    background-color: rgba(39, 39, 39, 0.61);
+    width: 110px;
+    margin: 0  auto;
+    z-index: 111;
+    padding: 5px;
+    border-radius: 10px;
+    border-color: #161616;
+    border: 10px;
+    
+}
+
+a.view-more {
+    text-decoration: none;
+    color:rgb(192, 192, 192);
+    transition: 0.1s;
+    font-family: 'Montserrat', sans-serif;
+}
+
+a.view-more:hover {
+    filter: drop-shadow(0 0 0.4rem rgb(53, 53, 53));
+}
+
+.rn:hover {
+    filter: drop-shadow(0 0 0.4rem rgb(214, 98, 98));
 }
 
 .imgsc {
@@ -186,16 +386,18 @@ a {
 	transition: 0.5s;
     position: relative;
     top: 50px;
+    margin-top: 5px;
 }
 
 .blog:hover {
-    width: 766px;
-    filter: drop-shadow(0 0 0.4rem rgb(163, 163, 163));
+    border-style: solid;
+    border-width: 1px;
+    border-color: #ffffff;
 }
 
 .date {
     float: right ;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     color: rgb(104, 104, 104);
     font-size: 10pt;
     position: relative;
@@ -205,7 +407,7 @@ a {
 
 .date1 {
     float: left ;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     color: rgb(104, 104, 104);
     font-size: 10pt;
     position: relative;
@@ -215,21 +417,28 @@ a {
 
 p.blog1 {
     
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     color: rgb(151, 151, 151);
     font-size: 12.pt;
     position: relative;
+    width: 555px;
     
 }
 
+.titleblog {
+    position: relative;
+    margin-top: 70px;
+}
+
 p.maintext {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     color: rgb(201, 201, 201);
     font-size: 12.pt;
 }
 
+
 h1 {
-    font-family: 'Poppins',sans-serif;
+    font-family: 'Montserrat', sans-serif;
     color: rgb(255, 255, 255);
 }
 
@@ -237,7 +446,39 @@ h1 {
     width: 555px; 
 }
 
+
+
 @media screen and (max-width: 777px ) {
+
+    p.blog1 {
+    
+        font-family: 'Montserrat', sans-serif;
+        color: rgb(151, 151, 151);
+        font-size: 12.pt;
+        position: relative;
+        width: 100%;
+        
+    }
+
+    h1.maksim {
+        position: relative;
+        margin: 0 auto;
+        top: 14%;
+    }
+    
+    p.prjc {
+        display: none;
+    }
+
+    section.skillsect {
+        position: relative;
+        margin-bottom: 80%;
+    }
+
+    .bigpic {
+        display: none;
+    }
+    
 
     .blogimg {
         width: 100%; 
@@ -271,14 +512,16 @@ h1 {
     }
     
     .blog:hover {
-        width: 97%;
+        border-style: solid;
+        border-width: 1px;
+        border-color: #ffffff;
         
     }
 
     #mid {
         position: relative;
         top: 69px;
-        height: 5333px;
+        height: 2000px;
         width: 100%;
         background-color: #161616;
         color:rgb(255, 255, 255);
@@ -316,6 +559,20 @@ h1 {
         
     }
 
+    #mid3blog2 {
+        position: relative;
+        top: 69px;
+        height: 8500px;
+        width: 100%;
+        background-color: #161616;
+        color:rgb(255, 255, 255);
+        margin: 0 auto;
+        
+    
+        filter: drop-shadow(0 0 0.1rem rgba(0, 0, 0, 0.801));
+        
+    }
+
     .top2 {
         position: relative;
         height: 69px;
@@ -340,3 +597,8 @@ h1 {
 
 }
 
+#lang {
+    background-color: rgb(36, 36, 36);
+    color: rgb(126, 126, 126);
+    
+}
