@@ -4,6 +4,29 @@ p {
     
 }
 
+h2.title-showcase {
+    color: #ffffff;
+    text-align: center;
+    margin: 0px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.image-showcase {
+    width: 600px;
+    margin-top: 15px;
+
+}
+
+.twi {
+    position: relative;
+    margin-top: 100px;
+}
+
+.twi-top {
+    position: relative;
+    margin-top: 33px;
+}
+
 .more {
    position: relative;
    margin-top: 29px;
@@ -49,6 +72,7 @@ h1.maksim {
     cursor: pointer;
 	transition: 0.3s;
     filter: invert(100%);
+    margin-right: 3px;
 }
 
 .topbuttons {
@@ -106,6 +130,7 @@ p.skillp {
     font-family: 'Montserrat', sans-serif;
     float: left;
     margin-left: 15px;
+    color: #979797;
 }
 
 .projectcard {
@@ -135,6 +160,7 @@ section.topchicksec {
     position: relative;
     float: left;
     margin: 15px;
+    color: #979797;
 }
 
 .prjc-image-ame {
@@ -255,6 +281,20 @@ body {
     filter: drop-shadow(0 0 0.1rem rgba(0, 0, 0, 0.801));
 }
 
+#mid-showcase {
+    position: relative;
+    top: 69px;
+    height: 14777px;
+    width: 777px;
+    background-color: #161616;
+    color:rgb(255, 255, 255);
+    margin: 0 auto;
+    padding: 1%;
+    text-align: center;
+
+    filter: drop-shadow(0 0 0.1rem rgba(0, 0, 0, 0.801));
+}
+
 #mid3blog {
     position: relative;
     top: 69px;
@@ -322,6 +362,7 @@ p.bottext {
     cursor: pointer;
 	transition: 0.3s;
     filter: invert(27%);
+    margin-right: 3px;
 }
 
 .button2:hover {
@@ -603,3 +644,4 @@ h1 {
     color: rgb(126, 126, 126);
     
 }
+
