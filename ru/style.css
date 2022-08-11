@@ -270,7 +270,7 @@ body {
 #mid2 {
     position: relative;
     top: 69px;
-    height: 1333px;
+    height: 1500px;
     width: 777px;
     background-color: #161616;
     color:rgb(255, 255, 255);
@@ -313,6 +313,20 @@ body {
     position: relative;
     top: 69px;
     height: 8000px;
+    width: 777px;
+    background-color: #161616;
+    color:rgb(255, 255, 255);
+    margin: 0 auto;
+    padding: 1%;
+
+    filter: drop-shadow(0 0 0.1rem rgba(0, 0, 0, 0.801));
+    
+}
+
+#mid3blog3 {
+    position: relative;
+    top: 69px;
+    height: 6200px;
     width: 777px;
     background-color: #161616;
     color:rgb(255, 255, 255);
