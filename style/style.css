@@ -94,7 +94,7 @@ section.toptext {
 
 .topbuttons {
     position: relative;
-    width: 230px;
+    width: 262px;
     
     display: flex;
     flex-direction: row;
@@ -233,7 +233,7 @@ body {
 }
 
 #hecktimg:hover {
-    filter: drop-shadow(0 0 0.18rem rgb(255, 255, 255));
+    transform: scale(1.1);
 }
 
 .button {
@@ -248,7 +248,7 @@ body {
 }
 
 .button:hover {
-    filter: drop-shadow(0 0 0.18rem rgb(255, 255, 255));
+    transform: scale(1.1);
 }
 
 .top {
@@ -464,16 +464,15 @@ a.view-more:hover {
     width: 677px; 
 	transition: 0.5s;
     cursor: pointer;
-	transition: 0.5s;
+	transition: 0.2s;
     position: relative;
     top: 50px;
     margin-top: 5px;
 }
 
 .blog:hover {
-    border-style: solid;
-    border-width: 1px;
-    border-color: #ffffff;
+    
+    transform: scale(1.02);
 }
 
 .date {
