@@ -163,6 +163,11 @@ p.skillp {
     border-radius: 15px;
     margin-top: 20px;
     filter: drop-shadow(0 0 0.06rem rgb(0, 0, 0));
+    transition: 0.5s;
+}
+
+.projectcard:hover {
+    transform: scale(1.07);
 }
 
 section {
@@ -225,11 +230,9 @@ body {
 
 #hecktimg {
     position: relative;
-    height: 100%;
-    
-
+    height: 4.5em;
     cursor: pointer;
-	transition: 0.2s;
+    transition: 0.2s;
 }
 
 #hecktimg:hover {
@@ -766,3 +769,11 @@ h1 {
     color: rgb(126, 126, 126);
     
 }
+
+.dred1 {
+    display: flex;
+    align-items: center;
+    width: 143px;
+    justify-content: space-between;
+}
+
