@@ -230,7 +230,7 @@ body {
 
 #hecktimg {
     position: relative;
-    height: 4.5em;
+    height: 4.5em; 
     cursor: pointer;
     transition: 0.2s;
 }
