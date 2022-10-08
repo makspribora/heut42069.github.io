@@ -9,7 +9,7 @@ degradka - some text translator
 # 2022-2022
 this website is available now on https://azuretium.space/ \
 or \
-![image](https://user-images.githubusercontent.com/87721232/194703535-e7e6d33f-8270-48a0-93d3-58bd5879093f.png)
+![image](https://user-images.githubusercontent.com/87721232/194703636-4b503eed-b8ab-42d5-8396-efecdc98a93c.png)
 
 
 
